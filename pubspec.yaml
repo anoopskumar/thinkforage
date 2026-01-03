@@ -1,0 +1,46 @@
+name: thinkforge
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  fl_chart: ^1.1.1
+  dotted_border: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# ------------------ FLUTTER LAUNCHER ICON CONFIG ------------------
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+# -----------------------------------------------------------------
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/dashboardicons/
+    - assets/icons/navbaricons/
+    - assets/icons/walleticons/
+    - assets/icons/searchbaricons/
+    - assets/icons/transfericons/
+    - assets/images/
+    - assets/logo/
